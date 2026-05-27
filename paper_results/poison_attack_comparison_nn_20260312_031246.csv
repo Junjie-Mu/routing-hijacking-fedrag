@@ -1,0 +1,3 @@
+﻿Router_TopK,Total,Routed_to_Mal,Routed_Rate,Mal_Poisoned,Poison_Success_Rate,Mal_Correct,Mal_Correct_Rate,Mal_Refusal,Normal_Correct,Normal_Correct_Rate
+1,100,12,0.1200,8,0.6667,1,0.0833,1,63,0.7159
+3,100,26,0.2600,13,0.5000,11,0.4231,0,57,0.7703

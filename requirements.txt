@@ -1,0 +1,19 @@
+numpy>=1.24
+scikit-learn>=1.3
+datasets>=2.14
+sentence-transformers>=2.2
+torch>=2.1
+tqdm>=4.66
+pandas>=2.0
+
+# Optional for generation-level experiments:
+# transformers>=4.40
+# accelerate>=0.30
+# safetensors>=0.4
+
+# Optional for BGE and HE baselines:
+# FlagEmbedding>=1.3.0
+# tenseal>=0.3.16
+
+# Optional for FAISS-backed generation indexes:
+# faiss-cpu>=1.8.0

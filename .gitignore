@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.tmp*/
+.venv/
+venv/
+env/
+
+# Local data, caches, and generated outputs.
+kb-cache/
+result/
+results/
+outputs/
+hf_datasets_cache/
+hf_datasets_redownload*/
+*.faiss
+*.index
+*.npy
+*.npz
+
+# Large or local model artifacts. The small NNRouter files under
+# artifacts/nn_router are intentionally kept.
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+!artifacts/nn_router/*.pt
+!artifacts/nn_router/*.pkl
+
+# OS/editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

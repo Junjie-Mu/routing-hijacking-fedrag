@@ -1,0 +1,45 @@
+{
+  "config": {
+    "rgb_data_path": "benchmark/RGB-master/data/en_refine.json",
+    "n_queries": 60,
+    "query_topk": 3,
+    "gen_model": "Qwen/Qwen3-4B-Instruct-2507-FP8",
+    "router_type": "nn"
+  },
+  "results": {
+    "1": {
+      "router_topk": 1,
+      "total_queries": 60,
+      "routed_to_malicious": 5,
+      "mal_refusal_count": 3,
+      "mal_correct_count": 1,
+      "mal_hallucination_count": 1,
+      "normal_correct_count": 45,
+      "normal_refusal_count": 9,
+      "normal_wrong_count": 1,
+      "routed_to_malicious_rate": 0.08333333333333333,
+      "mal_refusal_rate": 0.6,
+      "mal_correct_rate": 0.2,
+      "mal_hallucination_rate": 0.2,
+      "normal_correct_rate": 0.8181818181818182,
+      "normal_refusal_rate_pct": 0.16363636363636364
+    },
+    "3": {
+      "router_topk": 3,
+      "total_queries": 60,
+      "routed_to_malicious": 25,
+      "mal_refusal_count": 4,
+      "mal_correct_count": 20,
+      "mal_hallucination_count": 1,
+      "normal_correct_count": 34,
+      "normal_refusal_count": 0,
+      "normal_wrong_count": 1,
+      "routed_to_malicious_rate": 0.4166666666666667,
+      "mal_refusal_rate": 0.16,
+      "mal_correct_rate": 0.8,
+      "mal_hallucination_rate": 0.04,
+      "normal_correct_rate": 0.9714285714285714,
+      "normal_refusal_rate_pct": 0.0
+    }
+  }
+}
